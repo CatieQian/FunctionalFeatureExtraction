@@ -118,7 +118,7 @@ public class SourceCodeParser {
     }
 
     public static void getInfoFromSourceCode() {
-        String parentDir = "E:\\data\\source_code";
+        String parentDir = "data/source_code";
         HashMap<String, ProjectInfo> result = new HashMap<String, ProjectInfo>();
         for (String projectName: projectInfoMap.keySet()) {
             ProjectInfo projectInfo = projectInfoMap.get(projectName);
